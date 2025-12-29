@@ -3,21 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>3D Background</title>
+    <title>3D Effects</title>
     <link rel="stylesheet" href="./style.css" />
-
     <script type="importmap">
       {
         "imports": {
-          "three": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js",
-          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.182.0/examples/jsm/"
+          "three": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js"
         }
       }
     </script>
   </head>
-
   <body>
     <canvas id="bg" aria-hidden="true"></canvas>
+    <img id="mascot" src="./assets/character.jpg" alt="mascot" draggable="false" />
     <script type="module" src="./main.js"></script>
   </body>
 </html>
